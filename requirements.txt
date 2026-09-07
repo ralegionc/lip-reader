@@ -1,0 +1,10 @@
+# Install torch first, CPU build is plenty fast for this (~4 s per 3 s clip):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=1.13
+
+numpy>=1.21,<3
+opencv-python>=4.5
+
+# Prebuilt dlib wheels - avoids needing CMake and a C++ toolchain.
+# If this fails on your platform, `pip install dlib` and build from source.
+dlib-bin>=19.24

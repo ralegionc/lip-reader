@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Third-party model weights - fetched by setup_assets.py
+assets/*.pt
+assets/*.dat
+
+# Model files - fetch with `python setup_assets.py`
+assets/*.pt
+assets/*.dat
+assets/*.part
+
+# Outputs
+*.mp4
+!samples/*.mp4
+strip*.png
+out*.png
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/
