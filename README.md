@@ -149,3 +149,8 @@ in that file.
 Reading speech from video without consent is surveillance. Please use this on
 your own footage, on public research datasets, or with the explicit permission
 of the people in frame.
+
+
+## Data
+
+> The raw inputs are not in this repository. [DATA.md](DATA.md) records exactly which files were used, with sizes and fingerprints, and how to re-fetch them.

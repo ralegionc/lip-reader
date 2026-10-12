@@ -1,0 +1,3 @@
+path,bytes,fingerprint
+assets/shape_predictor_68_face_landmarks_GTX.dat,66435981,headtail256:d31c411e204728b130e1fb23d12efdcc545bbd86f73170150b5b618970a8e9b3
+assets/lipcoordnet.pt,27114996,sha256:403ed48e2d410dcbd161f9572d0dc7778bf4fa5552daa5a903daf9bca43f56bc
